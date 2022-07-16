@@ -115,7 +115,7 @@ const Home = () => (
           <Link href="https://zjui.intl.zju.edu.cn/en" target="_blank">
             ZJUI
           </Link>
-           as an undergraduate major in CompE
+          {' '}as an undergraduate major in CompE
         </BioSection>
       </Section>
 
