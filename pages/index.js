@@ -111,7 +111,11 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2020 to present</BioYear>
-          Studying in ZJUI as an undergraduate major in CompE
+          Studying in{' '}
+          <Link href="https://zjui.intl.zju.edu.cn/en" target="_blank">
+            ZJUI
+          </Link>
+           as an undergraduate major in CompE
         </BioSection>
       </Section>
 
