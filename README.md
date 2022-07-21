@@ -1,4 +1,4 @@
-# Erkai Yu's Homepage(Still working on modification)
+# Erkai Yu's Homepage
 
 [Home page of Erkai Yu](https://silkrow-homepage.vercel.app/)
 
