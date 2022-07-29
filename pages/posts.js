@@ -22,7 +22,15 @@ const Posts = () => (
         </SimpleGrid>
       </Section>
 
-
+      <Section delay={0.1}>
+        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem
+            title="My blog"
+            thumbnail={thumbMIT6S081notes}
+            href="https://silkrowblog.vercel.app/"
+          />
+        </SimpleGrid>
+      </Section>
 
     </Container>
   </Layout>
