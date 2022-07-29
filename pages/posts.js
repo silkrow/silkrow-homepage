@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
 import thumbMIT6S081notes from '../public/images/contents/MIT6S081notes.png'
+import thumbMyblog from '../public/images/contents/Myblog.png'
 
 const Posts = () => (
   <Layout title="Posts">
@@ -26,7 +27,7 @@ const Posts = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="My blog"
-            thumbnail={thumbMIT6S081notes}
+            thumbnail={thumbMyblog}
             href="https://silkrowblog.vercel.app/"
           />
         </SimpleGrid>
