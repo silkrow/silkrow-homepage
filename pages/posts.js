@@ -28,7 +28,7 @@ const Posts = () => (
           <GridItem
             title="My blog"
             thumbnail={thumbMyblog}
-            href="https://silkrowblog.vercel.app/"
+            href="https://www.cnblogs.com/silkrow/"
           />
         </SimpleGrid>
       </Section>
