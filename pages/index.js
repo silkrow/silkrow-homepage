@@ -35,6 +35,7 @@ const Home = () => (
         css={{ backdropFilter: 'blur(10px)' }}
       >
         Hello, I&apos;m an CompE student study in UIUC!
+        Hi, I'm Erkai Yu, an undergraduate major in Computer Engineering. I like operating system development and system security things, feel free to contact me if you're interested in those as well. I play chess as a hobby, send me a challenge and I will definitely accept it. Also, I'm a big fan of learning natural languages, please teach me to speak in your mother tongue! :)
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -102,6 +103,10 @@ const Home = () => (
           Born in Zhejiang, China.
         </BioSection>
         <BioSection>
+          <BioYear>2009</BioYear>
+          Started learning English.
+        </BioSection>
+        <BioSection>
           <BioYear>2013</BioYear>
           Started coding with Pascal.
         </BioSection>
@@ -116,6 +121,10 @@ const Home = () => (
             ZJUI
           </Link>
           {' '}as an undergraduate major in CompE
+        </BioSection>
+        <BioSection>
+          <BioYear>2022</BioYear>
+          Started learning Italian.
         </BioSection>
       </Section>
 
