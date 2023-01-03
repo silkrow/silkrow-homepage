@@ -76,13 +76,13 @@ const Home = () => (
           About me
         </Heading>
         <Paragraph>
-        Hi, I'm Erkai Yu, an undergraduate major in Computer Engineering. 
+        Hi, I&apos;m Erkai Yu, an undergraduate major in Computer Engineering. 
         I like operating system development and system security things, 
-        feel free to contact me if you're interested in those as well. I{' '}
+        feel free to contact me if you&apos;re interested in those as well. I{' '}
         <NextLink href="https://www.chess.com/member/alphatwenty" passHref>
             <Link target="_blank">play chess</Link>
           </NextLink> as a hobby, send me a challenge and I will definitely 
-        accept it. Also, I'm a big fan of learning natural languages, please 
+        accept it. Also, I&apos;m a big fan of learning natural languages, please 
         teach me to speak in your mother tongue! :)
         </Paragraph>
         <Box align="center" my={4}>
