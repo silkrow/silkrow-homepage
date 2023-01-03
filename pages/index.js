@@ -35,7 +35,6 @@ const Home = () => (
         css={{ backdropFilter: 'blur(10px)' }}
       >
         Hello, I&apos;m an CompE student study in UIUC!
-        Hi, I'm Erkai Yu, an undergraduate major in Computer Engineering. I like operating system development and system security things, feel free to contact me if you're interested in those as well. I play chess as a hobby, send me a challenge and I will definitely accept it. Also, I'm a big fan of learning natural languages, please teach me to speak in your mother tongue! :)
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -77,13 +76,14 @@ const Home = () => (
           About me
         </Heading>
         <Paragraph>
-          My name is Erkai Yu, also known as Kyle Yu, I&apos;m an undergraduate major in Computer Engineering. 
-					I am pretty interested in operating system programming, as well as PL. If you have interesting puzzles related 
-          to math or algorithms, please feel free to contact me and discuss.
-					Please check out my github page at{' '}
-          <NextLink href="https://github.com/silkrow" passHref>
-            <Link target="_blank">silkrow</Link>
-          </NextLink> to view my progress in learning CompE!
+        Hi, I'm Erkai Yu, an undergraduate major in Computer Engineering. 
+        I like operating system development and system security things, 
+        feel free to contact me if you're interested in those as well. I{' '}
+        <NextLink href="https://www.chess.com/member/alphatwenty" passHref>
+            <Link target="_blank">play chess</Link>
+          </NextLink> as a hobby, send me a challenge and I will definitely 
+        accept it. Also, I'm a big fan of learning natural languages, please 
+        teach me to speak in your mother tongue! :)
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
