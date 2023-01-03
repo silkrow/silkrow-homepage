@@ -86,6 +86,13 @@ const Home = () => (
         teach me to speak in your mother tongue! :)
         </Paragraph>
         <Box align="center" my={4}>
+          <NextLink href="https://silkrow3.wordpress.com/" passHref>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              My blogs
+            </Button>
+          </NextLink>
+        </Box>
+        <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My works

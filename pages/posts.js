@@ -9,10 +9,6 @@ import thumbMyblog from '../public/images/contents/Myblog.png'
 const Posts = () => (
   <Layout title="Posts">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4}>
-        Notes
-      </Heading>
-
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
@@ -28,7 +24,7 @@ const Posts = () => (
           <GridItem
             title="My blog"
             thumbnail={thumbMyblog}
-            href="https://www.cnblogs.com/silkrow/"
+            href="https://silkrow3.wordpress.com/"
           />
         </SimpleGrid>
       </Section>
