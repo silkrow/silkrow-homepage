@@ -12,13 +12,11 @@ const Connections = () => (
     </Container>
   </Layout>
 
-<Section delay={0.3}>>
-<Paragraph>
-  <NextLink href="https://moomoohorse.com/home/" passHref>
-    <Link target="_blank">Hao Ren</Link>
-  </NextLink> 
-</Paragraph>
-</Section>
+  <Paragraph>
+    <NextLink href="https://moomoohorse.com/home/" passHref>
+      <Link target="_blank">Hao Ren</Link>
+    </NextLink> 
+  </Paragraph>
 )
 
 export default Connections
