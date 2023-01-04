@@ -15,7 +15,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoGithub } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import { SiZhihu, SiBilibili } from 'react-icons/si'
 import Image from 'next/image'
 
@@ -189,6 +189,20 @@ const Home = () => (
                 leftIcon={<SiBilibili />}
               >
                 @MycroftH
+              </Button>
+            </Link>
+          </ListItem>
+        </List>
+
+        <List>
+          <ListItem>
+            <Link href="https://www.linkedin.com/in/erkai-yu-620358250/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoLinkedin />}
+              >
+                @Erkai Yu
               </Button>
             </Link>
           </ListItem>
