@@ -80,6 +80,9 @@ const Navbar = props => {
           <LinkItem href="/resume" path={path}>
             Resume
           </LinkItem>
+          <LinkItem href="/websites" path={path}>
+            Useful Links
+          </LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/silkrow/silkrow-homepage"
@@ -117,6 +120,9 @@ const Navbar = props => {
                 </NextLink>
                 <NextLink href="/resume" passHref>
                   <MenuItem as={Link}>Resume</MenuItem>
+                </NextLink>
+                <NextLink href="/websites" passHref>
+                  <MenuItem as={Link}>Useful Links</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
