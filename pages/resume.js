@@ -1,7 +1,7 @@
 import { Container, Heading} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 
-const Works = () => (
+const Resume = () => (
   <Layout title="Resume">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
