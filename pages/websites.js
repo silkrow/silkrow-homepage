@@ -1,16 +1,16 @@
 import { Container, Heading} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 
-const Websites = () => (
-  <Layout title="Useful Links">
+const Connections = () => (
+  <Layout title="Connections">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-      Useful Links
+      Connections
       </Heading>
       Coming soon...
     </Container>
   </Layout>
 )
 
-export default Websites
+export default Connections
 export { getServerSideProps } from '../components/chakra'
