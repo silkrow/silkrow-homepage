@@ -10,6 +10,12 @@ const Connections = () => (
       Coming soon...
     </Container>
   </Layout>
+
+<Section delay={0.3}>>
+<Paragraph>
+  Hao Ren: https://moomoohorse.com/home/
+</Paragraph>
+</Section>
 )
 
 export default Connections
