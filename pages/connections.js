@@ -3,7 +3,6 @@ import NextLink from 'next/link'
 import {
   Box,
   Button,
-  Link,
   Container,
   Heading,
 } from '@chakra-ui/react'
