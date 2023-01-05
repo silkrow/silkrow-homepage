@@ -14,7 +14,7 @@ const Connections = () => (
       <Heading as="h3" fontSize={20} mb={4}>
       Connections
       </Heading>
-      <Box align="center" my={4}>
+      <Box my={4}>
           <NextLink href="https://moomoohorse.com/home/" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Hao Ren
