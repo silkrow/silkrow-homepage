@@ -13,14 +13,12 @@ const Connections = () => (
       <Heading as="h3" fontSize={20} mb={4}>
       Connections
       </Heading>
-      Coming soon...
+      <Paragraph>
+        <NextLink href="https://moomoohorse.com/home/" passHref>
+          <Link target="_blank">Hao Ren</Link>
+        </NextLink> 
+      </Paragraph>
     </Container>
-
-    <Paragraph>
-      <NextLink href="https://moomoohorse.com/home/" passHref>
-        <Link target="_blank">Hao Ren</Link>
-      </NextLink> 
-    </Paragraph>
   </Layout>
 )
 
