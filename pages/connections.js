@@ -5,12 +5,6 @@ import {
   Link,
   Container,
   Heading,
-  Box,
-  Button,
-  List,
-  ListItem,
-  useColorModeValue,
-  chakra
 } from '@chakra-ui/react'
 
 const Connections = () => (
