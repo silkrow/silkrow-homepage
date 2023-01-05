@@ -2,6 +2,7 @@ import Layout from '../components/layouts/article'
 import NextLink from 'next/link'
 import Paragraph from '../components/paragraph'
 import {
+  Box,
   Link,
   Container,
   Heading,
@@ -13,11 +14,13 @@ const Connections = () => (
       <Heading as="h3" fontSize={20} mb={4}>
       Connections
       </Heading>
-      <Paragraph>
-        <NextLink href="https://moomoohorse.com/home/" passHref>
-          <Link target="_blank">Hao Ren</Link>
-        </NextLink> 
-      </Paragraph>
+      <Box align="center" my={4}>
+          <NextLink href="https://moomoohorse.com/home/" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              Hao Ren
+            </Button>
+          </NextLink>
+        </Box>
     </Container>
   </Layout>
 )
