@@ -1,12 +1,13 @@
 import Layout from '../components/layouts/article'
 import NextLink from 'next/link'
-import Paragraph from '../components/paragraph'
 import {
   Box,
+  Button,
   Link,
   Container,
   Heading,
 } from '@chakra-ui/react'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 
 const Connections = () => (
   <Layout title="Connections">
