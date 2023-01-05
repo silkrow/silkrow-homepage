@@ -21,13 +21,13 @@ const Connections = () => (
       </Heading>
       Coming soon...
     </Container>
-  </Layout>
 
-  <Paragraph>
-    <NextLink href="https://moomoohorse.com/home/" passHref>
-      <Link target="_blank">Hao Ren</Link>
-    </NextLink> 
-  </Paragraph>
+    <Paragraph>
+      <NextLink href="https://moomoohorse.com/home/" passHref>
+        <Link target="_blank">Hao Ren</Link>
+      </NextLink> 
+    </Paragraph>
+  </Layout>
 )
 
 export default Connections
