@@ -72,6 +72,11 @@ const Home = () => (
       </Box>
 
       <Section delay={0.1}>
+        <NextLink href="https://silkrow3.wordpress.com/" passHref>
+          <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            My new homepage!!! Checkout this one instead!
+          </Button>
+        </NextLink>
         <Heading as="h3" variant="section-title">
           About me
         </Heading>
